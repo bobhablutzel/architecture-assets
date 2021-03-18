@@ -1,0 +1,17 @@
+
+<style>
+mindmapDiagram {
+  .main {
+    BackgroundColor lightGray
+    LineColor: Black
+  }
+  .practice {
+    BackgroundColor lightGreen
+    LineColor: Black
+  }
+  .core {
+    BackgroundColor lightBlue
+    LineColor: Black
+  }
+}
+</style>

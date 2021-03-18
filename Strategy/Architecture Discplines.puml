@@ -1,0 +1,31 @@
+' This document defines the overall set of disciplines that an architect should
+' be concerned with. Not every architect will focus on every discipline - there
+' are likely to be specialists in some areas, and emphasis on others in specific roles.
+' However, a healthy and robust architecture practice will cover all of these items.
+'
+' This asset is part of Architecture Assets (https://github.com/bobhablutzel/architecture-assets) 
+'
+'
+@startmindmap Architecture Discplines
+
+' Include our CSS
+!include css/mindmap_css.puml
+
+
+' Define the overview mind map, which contains the high level disciplines for
+' the architecture practice. Each of these corresponds to a top level directory
+' in the Architecture Assets repo, and each of those directories has more detailed
+' information about the purpose of the discipline
+* Architecture Disciplines <<main>>
+** Strategy <<practice>>
+** Process & Governance <<practice>>
+** Innovation & Career <<practice>>
+** Business Architecture <<core>>
+** Entity Models <<core>>
+-- Solution Architecture <<core>>
+-- Operational Architecture <<core>>
+-- Security Architecture <<core>>
+-- Data Architecture <<core>>
+-- System Architecture <<core>>
+
+@endmindmap
